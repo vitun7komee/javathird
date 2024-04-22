@@ -3,8 +3,8 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        final int NUM_OPERATIONS = 1000; // Измените это значение по своему усмотрению
-        final int NUM_ELEMENTS = 1000; // Измените это значение по своему усмотрению
+        final int NUM_OPERATIONS = 1000; 
+        final int NUM_ELEMENTS = 1000; 
 
         // Измерение времени для ArrayList
         long arrayListAddTime = testArrayListAdd(NUM_OPERATIONS, NUM_ELEMENTS);
